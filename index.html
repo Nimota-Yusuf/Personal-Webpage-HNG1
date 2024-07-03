@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HNG STAGE1 TASK: My Personal Webpage</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>MY PERSONAL WEBPAGE</h1>
+    </header>
+    
+    <main>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="/Images/IMG_0788c - Copy.JPG" class="profile-pic" alt="An image of me smiling" data-testid="slackProfilePicture">
+                <div id="requirements">
+                    <p class="slack-info" title="My Slack display name" data-testid="slackDisplayName" >Slack Name: <span>Nimota Yusuf</span></p>
+                    <p class="slack-info" title="My Slack Email Address" data-testid="slackEmail" >Slack Email: <span>nimota2001@gmail.com</span></p>
+                    <p class="slack-info" title="Current time in UTC" data-testid="currentTimeUTC" >Current Time in UTC: <span id="time"></span></p>
+                    <p class="slack-info" title="Current day of the week" data-testid="currentDay" >Current Day of the week: <span id="current-day">bbb</span></p>
+                </div>
+            </div>
+        
+            <div class="col-sm-9">
+                <div class="page-details">
+                    <p id="fullname"> Yusuf Opeyemi Nimota</p>
+                    <p id="career">A Microbiologist and Junior Front-end Developer</p>
+                    <hr>
+                </div>
+                
+                <div id="goals">
+                    <p>For the next two years, these are my goals outline to transition from a Junior Front-end Developer to a Mid-Level Frontend Developer Role, 
+                taking on more challenging projects and continuously expanding my skill set to stay ahead in the ever-evolving tech landscape.</p>
+                <p class="goals-list">Goals for the First Year:</p>
+
+                <ul>
+                    <li>Deepen my understanding of HTML5, CSS3 and vanilla JavaScript particularly, ES6 syntax in which modern development now relies on,
+                        and also React, to create well responsive and interactive website.</li>
+                    <li>Contribute to projects and collaborate more on GitHub with other developers, also understand how to consume API, 
+                        ensuring efficient data fetch and handling within my applications.</li>
+                    <li>Build a portfolio to showcase projects done like small applications or clone websites to show 
+                        my ability to build complex functionalities</li>
+                </ul>
+
+                <p class="goals-list">Goals for the Second Year:</p>
+                <ul>
+                    <li>Advance my skills in JavaScript, mastering asynchronous programming through promises and Async/Await, 
+                        and learn various performance optimization techniques</li>
+                    <li>Explore Node.js and Express, learning how to create simple server-side applications and understand the full stack better, 
+                        and also explore state management libraries like Redux and test writing using libraries like Jest, Mocha, or Cypress.</li>
+                    <li>Understand Continuous Integration and Continuous Deployment (CI/CD) </li>
+                    <li>Improve my communication skills, develop effective time management strategies, and participate in industry meetups and conferences.</li>
+                </ul>
+                </div>
+                
+
+                <div id="resources">
+                <h3>For More Information</h3>
+                <p>Visit <a href="https://hng.tech/learn"  title="checkout hng.tech" data-testid="hngLink">HNG Tech</a> to learn more about HNG Internship.</p>
+                    
+                <p>Vist <a href="https://keyword.dog/"  title="checkout keyword.dog" data-testid="keywordLink">Keyword.dog</a> to learn to quickest way of dominating search rankings.</p>
+                    
+                <p>Visit <a href="https://scrapeanyweb.site/"  title="checkout scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a> to scrape any website, right from your desktop.</p>
+            </div>
+
+            </div>
+
+        </div>  
+        
+    </main>
+    
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
